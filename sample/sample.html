@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ringCommand.js</title>
+<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5">
+<link rel="stylesheet" href="css/common.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/ringCommand.css" type="text/css" media="all">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="js/jquery.path.js"></script>
+<script type="text/javascript" src="js/devide_ua.js"></script>
+<script type="text/javascript" src="js/ringCommand.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<style>
+  address, article, aside, dialog, figure, footer, header,
+  hgroup, menu, nav, section { display: block; }
+</style>
+<![endif]-->
+</head>
+<body>
+<div id="ringList" class="clearfix">
+<ul class="disp">
+<li class="selected"><img src="img/home.png" width="48" height="48" alt="home" /></li>
+<li><a href="#"><img src="img/box.png" alt="usage" /></a></li>
+<li><a href="#"><img src="img/files.png" alt="download" /></a></li>
+<li><a href="#"><img src="img/warn.png" alt="demo1" /></a></li>
+<li><a href="#"><img src="img/demo.png" alt="demo2(Facebox)" /></a></li>
+<li><a href="#"><img src="img/memo.png" alt="note" /></a></li>
+<li><a href="#"><img src="img/contact.png" alt="contact" /></a></li>
+</ul>
+<ul>
+<li class="selected"><img src="img/home.png" width="48" height="48" alt="home" /></li>
+<li><a href="#"><img src="img/box.png" alt="usage" /></a></li>
+<li><a href="#"><img src="img/files.png" alt="download" /></a></li>
+</ul>
+<ul>
+<li class="selected"><img src="img/home.png" width="48" height="48" alt="home" /></li>
+<li><a href="#"><img src="img/box.png" alt="usage" /></a></li>
+</ul>
+<ul>
+<li><a href="#"><img src="img/files.png" alt="download" /></a></li>
+<li><a href="#"><img src="img/warn.png" alt="demo1" /></a></li>
+<li><a href="#"><img src="img/demo.png" alt="demo2(Facebox)" /></a></li>
+<li><a href="#"><img src="img/memo.png" alt="note" /></a></li>
+<li><a href="#"><img src="img/contact.png" alt="contact" /></a></li>
+</ul>
+</div>
+<header>
+<div class="wrapper">
+<div id="logo">
+<h1>ringCommand.js</h1>
+</div>
+</div><!-- /.wrapper -->
+</header>
+
+<div id="content">
+
+<div class="clearfix">
+<!-- mainArea -->
+<div id="mainArea">
+<p>右クリック、長押し、または Pinch In(→ ←)でリングを開く<br>
+リングが開いている状態では、マウスホイール、ドラッグ、スワイプでリング回転<br>
+アイコンクリックでそのアイコンのリンクへ移動。<br>
+画面上のそれ以外の箇所を、ダブルクリック、長押しで「カーソルのあたっているアイコン」のリンクへ移動<br>
+(リンクでない場合はリングを閉じる)<br>
+右クリック、キーボード↑↓で別のリングを呼び出し。<br>
+ピンチアウト(← →)でリングを閉じる。
+</p>
+</div>
+<!-- / mainArea -->
+
+<!--  subArea  -->
+<div id="subArea">
+<h4>■メニュー</h4>
+<ul>
+<li class="this">ringCommand.js Home</li>
+<li><a href="#">usage</a></li>
+<li><a href="#">download</a></li>
+<li><a href="#">demo1</a></li>
+<li><a href="#">demo2</a></li>
+<li><a href="#">note</a></li>
+<li><a href="#">contact</a></li>
+</ul>
+
+</div>
+<!-- / subArea -->
+
+</div>
+</div><!-- /content -->
+
+<footer>
+<div class="wrapper">
+<div id="sitemap" class="clearfix">
+<div class="inner">
+</div>
+</div>
+<div id="rights">
+<p id="copyright"><?php echo date('Y'); ?></p>
+</div>
+</div><!-- /.wrapper -->
+</footer>
+
+</body>
+</html>

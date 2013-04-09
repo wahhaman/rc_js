@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+#ringList{
+    position:absolute;
+    z-index:999;
+    height:0;
+    overflow:hidden;
+}
+
+#ringList h2{
+    position:absolute;
+    color:#ffffff;
+    padding:5px;
+    text-align:center;
+    border:2px #999999 solid;
+    background:rgb(50, 50, 50, 0.5)
+    background:rgba(50, 50, 50, 0.5)
+}
+
+#ringList ul {
+    display:none;
+}
+
+#ringList ul.disp {
+    display:block;
+}
+
+
+#ringList li {
+    margin:2px 0;
+    list-style:none;
+    position:absolute;
+    display:block;
+    line-height:0;
+    display:inline;
+}
+
+.close {
+    display:none!important;
+    z-index:997;
+}
+
+#over {
+    position:absolute;
+    top: 0;
+    left: 0;
+    display:none;
+}
+
+.overlay {
+    visibility: visible;
+    zoom: 1;
+    background: #333;
+    z-index: 998;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    display:block!important;
+}
+
+#target_marker {
+    position:absolute;
+    zoom:1;
+}
+.target {
+    -webkit-border-radius :8px;
+    -moz-border-radius :8px;
+    border-radius :8px;
+    border:2px solid #cceeff;
+    z-index: 2000;
+}
+
+.protect {
+    overflow:hidden!important;
+}

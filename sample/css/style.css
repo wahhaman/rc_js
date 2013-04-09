@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+body {
+    font-family : 'メイリオ','ヒラギノ角ゴ Pro W3','ＭＳ ゴシック',Verdana,Arial,Helvetica,sans-serif;
+    font-size : 77%;
+    line-height : 1.6;
+    color : #151515;
+    background : #eeeeee;
+    text-align : center;
+}
+
+header,
+div#content,
+footer {
+    width : 640px;
+    margin : 0 auto;
+    text-align : left;
+    background : #ffffff;
+    padding : 0 5px;
+}
+
+header {
+    background : #99ccff;
+}
+
+div#content {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+footer {
+    background : #666666;
+    color : #ffffff;
+}
+
+#mainArea {
+    float:right;
+    width:440px;
+}
+
+#mainArea h2 {
+    margin-top:10px;
+    font-size:125%;
+    border-left:5px solid #0000ff;
+    border-bottom:1px solid #454545;
+    padding:3px 3px 3px 10px;
+}
+#mainArea p {
+    margin:15px 10px 0;
+}
+
+#mainArea pre {
+    margin:5px 10px 0;
+    padding-left:15px;
+    border:1px solid #666666;
+    overflow:auto;
+	width:90%;
+}
+
+
+#subArea {
+    float:left;
+    margin:10px;
+    padding:10px;
+    width:150px;
+    border:1px solid #454545;
+}
+#subArea ul li {
+    margin:0 0 5px 5px;
+    padding-left:3px;
+    
+    border-left:3px solid #00ccff;
+}
+#subArea ul li.this {
+    font-weight:bold;
+    border-left:3px solid #454545;
+}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*css リセット(yui)*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,table,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+    line-height:0!important;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+
+/*clearfix*/
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+.clearfix { /display: inline-block; }
+
+/*成型用css*/
+.mgT05{margin-top:  5px!important;}
+.mgT10{margin-top: 10px!important;}
+.mgT15{margin-top: 15px!important;}
+.mgT20{margin-top: 20px!important;}
+.mgT25{margin-top: 25px!important;}
+.mgT30{margin-top: 30px!important;}
+.mgT40{margin-top: 40px!important;}
+.mgT50{margin-top: 50px!important;}
+.mgT60{margin-top: 60px!important;}
+.mgT70{margin-top: 70px!important;}
+.mgT80{margin-top: 80px!important;}
+.mgT90{margin-top: 90px!important;}
+.mgT00{margin-top:100px!important;}
+.mgT0{margin-top:0px!important;}
+
+.mgT05em{margin-top: 0.5em!important;}
+.mgT10em{margin-top: 1.0em!important;}
+.mgT15em{margin-top: 1.5em!important;}
+.mgT20em{margin-top: 2.0em!important;}
+.mgT25em{margin-top: 2.5em!important;}
+.mgT30em{margin-top: 3.0em!important;}
+.mgT40em{margin-top: 4.0em!important;}
+.mgT50em{margin-top: 5.0em!important;}
+.mgT60em{margin-top: 6.0em!important;}
+.mgT70em{margin-top: 7.0em!important;}
+.mgT80em{margin-top: 8.0em!important;}
+.mgT90em{margin-top: 9.0em!important;}
+.mgT00em{margin-top:10.0em!important;}
+
+.w100{width:100px!important;}
+.w120{width:120px!important;}
+.w150{width:150px!important;}
+.w200{width:200px!important;}
+.w250{width:250px!important;}
+.w300{width:300px!important;}
+.w350{width:350px!important;}
+.w400{width:400px!important;}
+.w450{width:450px!important;}
+
+.block_right { float:right;}
+.block_left  { float:left;}
+.text_center{ text-align:center!important;}
+.text_right{ text-align:right!important;}
+.emphasis { font-weight:bold;}
