@@ -143,11 +143,24 @@ $(document).on('contextmenu', function(e) {
     return false;
 });
 $(document).on('keydown', function(e) {
+    var thisNum = $('#ringList ul.disp li.selected').index();
     if(!$('#ringList').hasClass('close')){
         if(e.keyCode == 40) {
             changeTargetRing(0);
         } else if(e.keyCode == 38) {
             changeTargetRing(1);
+        } else if(e.keyCode == 37) {
+            thisNum++;
+            if(thisNum >= elem){thisNum = 0;}
+            direction = 1;
+            $('body').stop(true).rotateWheel(thisNum, spd, direction);
+        } else if(e.keyCode == 39) {
+            thisNum--;
+            if(thisNum < 0){thisNum = elem -1;}
+            direction = -1;
+            $('body').stop(true).rotateWheel(thisNum, spd, direction);
+        } else if(e.keyCode == 27) {
+            toggleRingCommand();
         }
     }
     return false;
