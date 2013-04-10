@@ -7,9 +7,9 @@ jquery(+jqueryプラグイン)上で動作するリンクメニュー。
 また、現状はとりあえず動くことを確認した程度なので挙動が不安定かもしれません。
 
 ##必須プラグイン
-+ [jquery.touchSwipe.js](https://github.com/mattbryson/TouchSwipe-Jquery-Plugin,"スワイプなどのイベント取得のため")
-+ [jquery.paths.js](https://github.com/weepy/jquery.path,"ブロックを曲線に沿って移動させるため")
-+ [jquery.mouseWheel.js](https://github.com/brandonaaron/jquery-mousewheel,"マウスホイールイベント取得のため")
++ [jquery.touchSwipe.js](https://github.com/mattbryson/TouchSwipe-Jquery-Plugin "スワイプなどのイベント取得のため")
++ [jquery.paths.js](https://github.com/weepy/jquery.path "ブロックを曲線に沿って移動させるため")
++ [jquery.mouseWheel.js](https://github.com/brandonaaron/jquery-mousewheel "マウスホイールイベント取得のため")
 
 ##操作方法(画面全域)
 + リングを開く
