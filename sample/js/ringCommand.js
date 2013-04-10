@@ -57,7 +57,7 @@ $(function(){
             if(((direction == 'out' &&  $('#ringList').hasClass('close'))
              || (direction == 'in'  && !$('#ringList').hasClass('close'))) && phase == 'end') {
                 toggleRingCommand();
-            } else if((direction == 'in' && phase == 'end') {
+            } else if(direction == 'in' && phase == 'end') {
                 changeTargetRing(0);
             }
         },
