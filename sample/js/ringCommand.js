@@ -232,7 +232,7 @@ function toggleRingCommand() {
     }
     $('#ringList ul.disp li').each(function(i){
         distance = i - thisNum;
-        switchRing($(this), distance, arrDispData.rOut, arrDispData.r, switchSpeed);
+        switchRing($(this), distance, startR, endR, switchSpeed);
     }).queue(function(){
         if(!$('#ringList').hasClass('close') && endR > startR){
             toggleDisplay();
