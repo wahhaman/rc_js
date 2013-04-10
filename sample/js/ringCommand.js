@@ -54,11 +54,11 @@ $(function(){
             enterKey();
         },
         pinchStatus:function(event, phase, direction, distance , duration , fingerCount) {
-            if((direction == 'out' && $('#ringList').hasClass('close'))
-            || (direction == 'in' && !$('#ringList').hasClass('close'))) {
-                if(phase == 'end') {
-                    toggleRingCommand();
-                }
+            if(((direction == 'out' &&  $('#ringList').hasClass('close'))
+             || (direction == 'in'  && !$('#ringList').hasClass('close'))) && phase == 'end') {
+                toggleRingCommand();
+            } else if((direction == 'in' && phase == 'end') {
+                changeTargetRing(0);
             }
         },
         fingers:2,
@@ -136,7 +136,7 @@ $(function(){
 //開く(右クリック)
 $(document).on('contextmenu', function(e) {
     if(!$('#ringList').hasClass('close')){
-        changeTargetRing(true);
+        changeTargetRing(1);
     } else {
         toggleRingCommand();
     }
@@ -145,9 +145,9 @@ $(document).on('contextmenu', function(e) {
 $(document).on('keydown', function(e) {
     if(!$('#ringList').hasClass('close')){
         if(e.keyCode == 40) {
-            changeTargetRing(false);
+            changeTargetRing(0);
         } else if(e.keyCode == 38) {
-            changeTargetRing(true);
+            changeTargetRing(1);
         }
     }
     return false;
