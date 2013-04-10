@@ -11,6 +11,9 @@ jquery(+jqueryプラグイン)上で動作するリンクメニュー。
 + [jquery.paths.js](https://github.com/weepy/jquery.path "ブロックを曲線に沿って移動させるため")
 + [jquery.mouseWheel.js](https://github.com/brandonaaron/jquery-mousewheel "マウスホイールイベント取得のため")
 
+##デモ
+[sampleの中身](http://wahhaman.github.io/rc_js/sample/sample.html)
+
 ##操作方法(画面全域)
 + リングを開く
     * 右クリック(PC/閉状態)
@@ -35,8 +38,8 @@ jquery(+jqueryプラグイン)上で動作するリンクメニュー。
 0.2.0
 
 ##履歴
-2013/04/09 ver 0.2.0 複数リングの切り替え機能追加
-2013/04/05 ver 0.1.0 公開
+2013/04/09 ver 0.2.0 複数リングの切り替え機能追加、githubに移行
+2013/04/05 ver 0.1.0 [自サイト](http://laymanscraft.net/rc_js/)で公開
 
 ##検証環境
 windowsXP (IE8/Firefox/Chrome/Safari)
